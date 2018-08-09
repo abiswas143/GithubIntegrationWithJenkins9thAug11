@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57598" started-at="2018-08-09T05:50:31Z" finished-at="2018-08-09T05:51:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57598" started-at="2018-08-09T05:50:31Z" finished-at="2018-08-09T05:51:28Z">
+      <class name="scripts.TestValidLogin">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestValidLogin@61a485d2]" name="launchApplication" is-config="true" duration-ms="8985" started-at="2018-08-09T11:20:31Z" finished-at="2018-08-09T11:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@61a485d2]" name="testValidLogin" duration-ms="34249" started-at="2018-08-09T11:20:40Z" finished-at="2018-08-09T11:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@61a485d2]" name="closeApplication" is-config="true" duration-ms="93" started-at="2018-08-09T11:21:14Z" finished-at="2018-08-09T11:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:scripts.TestValidLogin@61a485d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestValidLogin -->
+      <class name="scripts.TestInvalidLogin">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestInvalidLogin@39fb3ab6]" name="launchApplication" is-config="true" duration-ms="8765" started-at="2018-08-09T11:21:14Z" finished-at="2018-08-09T11:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:scripts.TestInvalidLogin@39fb3ab6]" name="testInvalidLogin" duration-ms="5336" started-at="2018-08-09T11:21:23Z" finished-at="2018-08-09T11:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@39fb3ab6]" name="closeApplication" is-config="true" duration-ms="148" started-at="2018-08-09T11:21:28Z" finished-at="2018-08-09T11:21:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:0, instance:scripts.TestInvalidLogin@39fb3ab6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestInvalidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
