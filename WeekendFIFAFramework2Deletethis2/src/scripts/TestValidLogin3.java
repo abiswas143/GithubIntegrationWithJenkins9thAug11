@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
 import generic.BaseTest;
 import generic.Lib;
 import pompages.LoginPage;
-public class TestValidLogin extends BaseTest{
+public class TestValidLogin3 extends BaseTest{
 	@Test
 	public void testValidLogin() throws InterruptedException{
 		LoginPage lp = new LoginPage(driver);
@@ -25,7 +25,7 @@ public class TestValidLogin extends BaseTest{
 		
 		SoftAssert sa = new SoftAssert();
 		
-		sa.assertEquals(driver.getTitle(), "actiTIME - Enter Time-Track123");
+		sa.assertEquals(driver.getTitle(), "actiTIME - Enter Time-Track");
 		
 		sa.assertAll();
 		
